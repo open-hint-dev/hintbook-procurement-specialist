@@ -1,0 +1,9 @@
+{
+  "id": "emit-procurement-specialist-markdown",
+  "target": "markdown",
+  "match": [
+    "*.md",
+    "*.markdown"
+  ],
+  "comment": "<!-- {text} -->"
+}

@@ -1,0 +1,1 @@
+This repository uses HINT Spec-as-Source for procurement work. Run `hint search "<intent>"`, then `hint <path>` before changing a procurement document. Put this task-specific book before broader books.

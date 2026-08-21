@@ -1,0 +1,48 @@
+{
+  "name": "@openhint/hintbook-procurement-specialist",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The official HINT vocabulary for procurement.",
+  "keywords": [
+    "openhint",
+    "hintbook",
+    "procurement-specialist"
+  ],
+  "author": "Andrei Neprel <andrei@neprel.ai> (https://neprel.ai/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-hint-dev/hintbook-procurement-specialist.git"
+  },
+  "homepage": "https://github.com/open-hint-dev/hintbook-procurement-specialist#readme",
+  "bugs": {
+    "url": "https://github.com/open-hint-dev/hintbook-procurement-specialist/issues"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./index.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "docs",
+    "emit",
+    "index.js",
+    "keywords",
+    "testdata"
+  ],
+  "scripts": {
+    "test": "node scripts/check-book.mjs"
+  },
+  "dependencies": {}
+}

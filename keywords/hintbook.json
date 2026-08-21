@@ -1,0 +1,23 @@
+{
+  "id": "hintbook-procurement-specialist",
+  "name": "HINT Procurement",
+  "description": "A vocabulary and operating frame for procurement",
+  "synonyms": [
+    [
+      "rfp",
+      "tender",
+      "solicitation",
+      "rfq"
+    ],
+    [
+      "bidder",
+      "vendor",
+      "supplier"
+    ],
+    [
+      "weight",
+      "scoring",
+      "points"
+    ]
+  ]
+}
